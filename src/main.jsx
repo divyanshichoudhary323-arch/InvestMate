@@ -42,7 +42,7 @@ const iconMap = {
 };
 
 function App() {
-  const [lang, setLang] = useState(() => localStorage.getItem("sahayak_lang") || "en");
+  const [lang, setLang] = useState(() => localStorage.getItem("InvestMate_lang") || "en");
   const [query, setQuery] = useState("");
   const [cat, setCat] = useState("All");
   const [selected, setSelected] = useState(null);
@@ -60,7 +60,7 @@ function App() {
 
   useEffect(() => {
     document.documentElement.lang = lang;
-    localStorage.setItem("sahayak_lang", lang);
+    localStorage.setItem("InvestMate_lang", lang);
   }, [lang]);
 
   function toggleLang() {
@@ -131,7 +131,7 @@ function App() {
       {/* Navigation */}
       <header className="nav">
         <a className="brand" href="#home" onClick={() => setScreen("home")}>
-          <span className="mark">स</span>
+          <span className="mark">IM</span>
           <b>
             {t.nav.brand}
             <small>{t.nav.tagline}</small>
@@ -482,7 +482,7 @@ function App() {
       {/* Footer */}
       <footer>
         <div className="brand">
-          <span className="mark">स</span>
+          <span className="mark">IM</span>
           <b>
             {t.nav.brand}
             <small>{t.nav.tagline}</small>

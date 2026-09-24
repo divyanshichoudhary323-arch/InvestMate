@@ -1,7 +1,7 @@
 export const translations = {
   en: {
     nav: {
-      brand: "Sahayak",
+      brand: "InvestMate",
       tagline: "Your simple guide",
       home: "Home",
       schemes: "Government Schemes",
@@ -21,7 +21,7 @@ export const translations = {
       btnFind: "Find Help For Me",
       btnSchemes: "Explore Schemes",
       trust: ["Simple language", "Step-by-step", "Voice friendly"],
-      guideReady: "SAHAYAK GUIDE · READY",
+      guideReady: "InvestMate · READY",
       guidePrompt: "What do you need today?",
       guideGovt: "Government scheme",
       guideHealth: "Health protection",
